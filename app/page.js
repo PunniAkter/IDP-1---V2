@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation"; // For navigation
 import Grid from "@mui/material/Grid";
 
 
-export default function Menu() {
+export default function Home() {
   const router = useRouter();
 
   const handleNavigation = (path) => {
